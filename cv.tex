@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage{enumitem}
+\usepackage{multicol}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{hienph.jpg} % Profile picture
+
+\cvname{Hien Pham} % Your name
+\cvjobtitle{Senior Manager, Data Engineer} % Job title/career
+
+\cvdate{March 19 1994} % Date of birth
+\cvaddress{Ho Chi Minh City, Viet Nam} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+84 916504193} % Phone number
+\cvsite{\href{https://my.hienph.dev}{My Profile}} % Personal website
+\cvmail{hienduyph@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Data Artist: Building data pipeline, streaming data, data visualization at scales.}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{
+	{FullStack Developer/4},
+	{A.I Engineer, Deep Learning/4},
+	{English/4},
+	{Self-Taught/6},
+	{Big Data Engineer/6}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 Professional Profile
+%----------------------------------------------------------------------------------------
+
+\section{Professional Profile}
+
+Work with ethics, time management, task prioritization skills and learn quickly, I seek the opportunity to learn new skills and apply to solve future problems.
+
+%------------------------------------------------------------------------
+%	HighLights
+%---------------------------------------------------------------------
+\section{Highlights}
+\begin{itemize}
+	\item Focused on effectively executing full cycle software development by writing well-designed, testable and efficient code.
+	\item Quickly learns and master new technologies; successful working in both team and self-directed settings.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 CORE COMPETENCIES
+%----------------------------------------------------------------------------------------
+\section{Core Competencies}
+\begin{multicols}{2}
+\begin{itemize}
+	\item Big Data Technologies
+	\item OOP, Design Patterns
+	\item Functional Programming
+	\item Testing (TDD/BDD)
+	\item Maintenance
+	\item Problem Solving
+	\item Software Architecture
+	\item Machine Learning, Deep Learning
+\end{itemize}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	 Technical Expertise
+%----------------------------------------------------------------------------------------
+\section{Technical Expertise}
+\begin{itemize}
+    \item Big Data: Apache Spark, Hadoop EcoSystem, Beam, Flink, Druid, Clickhouse, Cassandra Presto, Apache Airflow at scales.
+    \item Olap & Dataware house: Apache Druid, Apache Supserset, BigQuery
+	\item Web Development: JavaScript/TypeScript (NodeJS, Angular, Vue, React)
+	\item Machine Learning: TensorFlow, Keras, PyTorch
+	\item Backend: TypeScript, Python, Golang, C++, Java, Rust, Kotlin, Scala
+	\item Database: MongoDB, Postgres, MySQL.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiences}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem{01 2022 - Present}{Senior Manager, Data Engineer}{TIKI CORP}{Mareketing Tech Platform: Build various in-house self-serve products for Sellers and Brands could boost their products and sales: Paid Marketing Automation}
+    
+    \twentyitem{Sep 2018 - 12 2021}{Senior Data Engineer}{TIKI CORP}{Build CRM System, Olap System, Anti-Fraud System, Customer Data Platform, Tracking Platform, Core Data Infrastructure at TIKI}
+
+    \twentyitem{Feb 2017 - Aug 2018}{A.I Engineer, Software Engineer}{Janeto}{Focus on solving computer vision problem: End to End from research algorithms, prototyping to production application}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+    \twentyitemshort{CDP}{Tiki's Customer Data Platform - Build the realtime data pipelines, customer trackings system and campaign system for ecommerce}
+    \twentyitemshort{Anti-Fraud System}{Data Driven, Machined Learning Applied for Fraud in e-commerce at TIKI}
+    \twentyitemshort{Olap Platfor}{Bring Apache Druid into production with about 1TB data at TIKI}
+    \twentyitemshort{CRM System}{Build in-house CRM system at TIKI}
+	\twentyitemshort{Cards Detection }{Detect cards and bets in the blackjack table using Python, Java and Tensorflow}
+    \twentyitemshort{Internal Chat}{An internal product for communication between teams using NodeJS, Angular, TypeScript}
+\end{twentyshort}
+
+% \section{Other information}
+% \subsection{Data Science \& Deep Learning}
+% Otherwise, Be prepared for Next Technological Revolution, I self-taught in Data Science, focus on solving the business problems related to data, using Machine Learning/Deep Learning, Big Data Technology.
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
